@@ -1,0 +1,110 @@
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: var(--lwc-fontFamily, sans-serif);
+    line-height: 1.6em;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nevigation {
+    float: left;
+    padding-left: 10px;
+}
+
+.header {
+    height: 40px;
+    width: 80%;
+}
+
+.logo {
+    float: left;
+}
+
+.support {
+    float: right;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.header2 {
+    padding-top: 60px;
+    height: 40px;
+    width: 80%;
+}
+
+.search {
+    height: 45px;
+    width: 320px;
+    float: right;
+}
+
+.search input {
+    width: 240px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-left: 10px;
+    background-image: url(img/search.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: 220px 5px;
+    margin-left: 290px;
+}
+
+.content {
+    padding-left: 25px;
+    float: left;
+    width: 60%;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.clock {
+    float: left;
+    color: blue;
+}
+
+.time {
+    float: right;
+    color: blue;
+    font-size: 12px;
+    text-indent: 10px;
+    margin-top: 2%;
+}
+
+.footer {
+    padding-top: 3%;
+    padding-bottom: 7%;
+}
+
+.footer1 {
+    float: left;
+    padding-left: 20px;
+}
+
+.footer2 {
+    float: right;
+    padding-right: 50%;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: DodgerBlue;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.sidebar {
+    float: right;
+}
