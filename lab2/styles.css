@@ -1,0 +1,29 @@
+.clear {
+    clear: both;
+}
+
+#sidebar {
+    width: 300px;
+    height: 150px;
+    float: right;
+    font-size: 20px;
+}
+
+h3 {
+    color: rgb(248, 73, 102);
+    font-weight: bold;
+}
+
+p {
+    padding-left: 25px;
+    font-family: courier, arial, helvetica;
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#test {
+    padding-left: 10%;
+}
