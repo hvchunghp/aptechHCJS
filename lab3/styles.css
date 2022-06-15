@@ -1,0 +1,64 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: var(--lwc-fontFamily, sans-serif);
+    line-height: 1.6em;
+    font-size: 12px;
+    margin-top: 15px;
+    background-image: url(https://media.istockphoto.com/photos/technology-and-coffee-on-a-wooden-table-picture-id483731108?b=1&k=20&m=483731108&s=170667a&w=0&h=rEtAJHRPwE86R6wAj5FXhGGDvhhTenRo-tueQDD_qjg=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avt {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.sidebar {
+    width: 220px;
+    height: auto;
+    background-color: gainsboro;
+    float: left;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.information {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 50px;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+.header {
+    background-color: rgb(165, 208, 236);
+    height: 200px;
+    line-height: 30px;
+}
+
+.content {
+    background-color: rgb(241, 240, 240);
+    height: auto;
+    width: auto;
+    line-height: 30px;
+    height: 650px;
+}
+
+.mainContent {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+    max-width: 40%;
+}
