@@ -1,0 +1,48 @@
+.container {
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+}
+
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+#content {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    line-height: 30px;
+    display: block;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#titleForm1,
+#titleForm2,
+#note,
+#note2 {
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#note {
+    position: absolute;
+    top: 55%;
+    right: 47.6%;
+}
+
+#choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.choose {
+    width: 45%;
+}

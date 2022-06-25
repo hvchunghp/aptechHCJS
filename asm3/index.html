@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form asm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="tatble">
+        <div id="content">
+            <div>
+                <label for="content" style="font-size: 25px;">Create task</label><br><br>
+            </div>
+            <div style="">
+                <input value="" type="text" placeholder="type" size="41">
+                <br>
+                <select required style="width: 48%; ">
+                    <option value="" disabled selected hidden>Company</option>
+                    <option value="Company Name">Company Name</option>
+                    <option value="Company Name">Company Name</option>
+                    <option value="Company Name">Company Name</option>
+              </select>
+                <select required id="opt" style="width: 48%;">
+                    <option value="" disabled selected hidden>Opportunity</option>
+                    <option value="Company Name">Opportunity 1</option>
+                    <option value="Company Name">Opportunity 2</option>
+                    <option value="Company Name">Opportunity 3</option>
+              </select>
+                <label for="opt" id="note"> Optional</label><br><br>
+                <input value="" type="text" placeholder="Task name" size="41">
+                <input value="" type="text" placeholder="CC" id="cc" size="41">
+                <label for="cc" id="note2"> Optional</label><br><br>
+            </div>
+
+            <div id="choose">
+                <div class="choose">
+                    <label for="title" id="titleForm1">Naturak of request</label>
+                    <form action="" id="title">
+                        <input type="checkbox" id="ads" name="ads" value="Ads review">
+                        <label for="ads"> Ads review</label><br>
+                        <input type="checkbox" id="kbr" name="kbr" value="Keywords review">
+                        <label for="kbr"> Keywords review</label><br>
+                        <input type="checkbox" id="er" name="er" value="Extentions review">
+                        <label for="er"> Extentions review</label><br><br>
+                    </form>
+                </div>
+
+                <div class="choose">
+                    <label for="title2" id="titleForm2">Current reviewable status</label>
+                    <form action="" id="title2">
+                        <input type="radio" id="appoved" name="appoved" value="appoved">
+                        <label for="appoved"> Appoved</label><br>
+                        <input type="radio" id="appoved" name="nappoved" value="nappoved">
+                        <label for="nappoved"> Not appoved</label><br><br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
