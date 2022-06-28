@@ -1,0 +1,58 @@
+body {
+    display: block;
+}
+
+.container {
+    margin: 0 25%;
+    background-color: azure;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#weatherView {
+    display: flex;
+    align-items: center;
+}
+
+#icon,
+#teamp,
+#hump,
+#press {
+    margin: 1vw;
+}
+
+#showTemp {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 1vw;
+}
+
+#symbol {
+    font-size: 1vw;
+}
+
+#temp {
+    font-size: 3vw;
+}
+
+#icon img {
+    height: 5vw;
+}
+
+#subInfo {
+    display: block;
+}
+
+#cityInfo {
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+}
